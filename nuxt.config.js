@@ -1,5 +1,3 @@
-import { directive } from "v-aspect-ratio/dist/v-aspect-ratio.ssr.common.js";
-
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -42,14 +40,6 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
-
-  render: {
-    bundleRenderer: {
-      directives: {
-        "aspect-ratio": directive,
-      },
-    },
-  },
 
   fontawesome: {
     icons: {
