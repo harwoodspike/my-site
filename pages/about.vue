@@ -1,5 +1,5 @@
 <template>
-  <Card title="About Myself"></Card>
+  <Resume />
 </template>
 
 <script>
